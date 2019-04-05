@@ -56,6 +56,13 @@ Default value: `''`
 
 The password for the development user. (e.g. 1234)
 
+
+#### options.version
+Type: `String`
+Default value: `'pkg.version'`
+
+The version of the deployment package.
+
 ### Usage Examples
 
 ```js

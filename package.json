@@ -1,7 +1,7 @@
 {
   "name": "grunt-roku-deploy",
   "description": "Deploy to a Roku device",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/dudewheresmycode/grunt-roku-deploy",
   "author": {
     "name": "Brian Robinson",
@@ -35,5 +35,8 @@
   },
   "keywords": [
     "gruntplugin"
-  ]
+  ],
+  "dependencies": {
+    "request": "^2.88.0"
+  }
 }

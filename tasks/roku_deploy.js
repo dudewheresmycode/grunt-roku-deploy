@@ -8,6 +8,8 @@
 
 'use strict';
 const url = require('url')
+const fs = require('fs')
+const request = require('request')
 
 function random_id(){
   return Math.round(Math.random()*10e5).toString(16)  + "" + (new Date()).getTime().toString(16);
